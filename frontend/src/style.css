@@ -1,0 +1,21 @@
+html, body, #root { margin: 0; height: 100%; background: #0b1220; color: #e5e9f0;
+  font-family: system-ui, sans-serif; }
+.app { display: grid; grid-template-rows: 48px 1fr; height: 100%; }
+.top { display: flex; align-items: center; gap: 16px; padding: 0 16px; background: #111a2e;
+  border-bottom: 1px solid #22304d; }
+.top h1 { font-size: 16px; margin: 0; }
+.main { display: grid; grid-template-columns: 240px 1fr 300px; min-height: 0; }
+.side { padding: 12px; background: #111a2e; overflow: auto; }
+.side h2 { font-size: 13px; text-transform: uppercase; color: #8fa3c7; margin: 0 0 8px; }
+.side button { display: block; width: 100%; text-align: left; margin-bottom: 4px; padding: 8px;
+  background: #1a2744; color: inherit; border: 1px solid #22304d; border-radius: 4px; cursor: pointer; }
+.side button.on { border-color: #4da3ff; }
+.map { position: relative; min-height: 0; }
+.map > div { position: absolute; inset: 0; }
+.muted { color: #8fa3c7; font-size: 12px; }
+.layer { display: flex; align-items: center; gap: 6px; font-size: 13px; margin-bottom: 6px; cursor: pointer; }
+.swatch { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+.props { font-size: 12px; border-collapse: collapse; width: 100%; }
+.props td { border-bottom: 1px solid #22304d; padding: 3px 4px; vertical-align: top; word-break: break-word; }
+.props td:first-child { color: #8fa3c7; }
+@media (max-width: 800px) { .main { grid-template-columns: 1fr; grid-template-rows: 1fr auto; } .side.right { display: none; } }
