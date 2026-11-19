@@ -1,0 +1,74 @@
+{
+ "codigo_ibge": 4322806,
+ "nome": "Veranópolis",
+ "retangulo": {
+  "oeste": -51.69569760167028,
+  "norte": -28.876901264247294,
+  "leste": -51.43847537944806,
+  "sul": -29.08384570869174
+ },
+ "altitude_m": {
+  "min": 104.5,
+  "max": 732.2,
+  "media": 506.6
+ },
+ "declividade_media_pct": 29.9,
+ "classes": [
+  {
+   "classe": "Plano",
+   "de_pct": 0,
+   "ate_pct": 3,
+   "cor": "#1a9850",
+   "area_km2": 8.16,
+   "fracao": 0.0283
+  },
+  {
+   "classe": "Suave ondulado",
+   "de_pct": 3,
+   "ate_pct": 8,
+   "cor": "#91cf60",
+   "area_km2": 25.17,
+   "fracao": 0.0872
+  },
+  {
+   "classe": "Ondulado",
+   "de_pct": 8,
+   "ate_pct": 20,
+   "cor": "#d9ef8b",
+   "area_km2": 85.07,
+   "fracao": 0.2949
+  },
+  {
+   "classe": "Forte ondulado",
+   "de_pct": 20,
+   "ate_pct": 45,
+   "cor": "#fee08b",
+   "area_km2": 104.31,
+   "fracao": 0.3616
+  },
+  {
+   "classe": "Montanhoso",
+   "de_pct": 45,
+   "ate_pct": 75,
+   "cor": "#fc8d59",
+   "area_km2": 55.95,
+   "fracao": 0.1939
+  },
+  {
+   "classe": "Escarpado",
+   "de_pct": 75,
+   "ate_pct": null,
+   "cor": "#d73027",
+   "area_km2": 9.84,
+   "fracao": 0.0341
+  }
+ ],
+ "fonte": {
+  "nome": "Copernicus DEM GLO-30 (ESA), via AWS Open Data",
+  "licenca": "Copernicus DEM — licença de uso livre (© DLR e.V. 2010-2014, © Airbus 2014-2018, ESA)",
+  "url": "https://registry.opendata.aws/copernicus-dem/",
+  "resolucao_espacial": "1 segundo de arco (~30 m)",
+  "metodo": "Declividade em % por diferenças centrais (numpy.gradient) sobre o DSM. O GLO-30 é modelo de SUPERFÍCIE: inclui copas de árvores e edificações.",
+  "obtido_em": "2026-11-18T22:28:49Z"
+ }
+}

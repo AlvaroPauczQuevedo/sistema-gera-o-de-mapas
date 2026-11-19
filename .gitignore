@@ -4,3 +4,7 @@ __pycache__/
 .venv/
 .env
 *.pyc
+
+# gerado pelo coletor (local ou no GitHub Actions); não versionar
+frontend/public/data/monitoramento.json
+backend/data/dem/

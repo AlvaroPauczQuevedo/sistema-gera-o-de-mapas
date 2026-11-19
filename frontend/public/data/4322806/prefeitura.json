@@ -1,0 +1,242 @@
+{
+ "orgaos": [
+  {
+   "nome": "Departamento Habitacional",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": "Desenvolvimento Social",
+   "endereco": "Na Secretaria Municipal de Desenvolvimento Social, Habitação e Longevidade, situada na rua São Francisco de Assis - 259, próximo a APAE.",
+   "telefone": "(54) 34417242",
+   "atendimento": "Segunda à Sexta-feira: das 8h30min às 11h30min e das 13h30min às 17h",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/1/departamento-habitacional",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Oficina da prefeitura municipal de veranopolis",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": "Infraestrutura Urbana",
+   "endereco": "Rua Irmãos Maristas, 185",
+   "telefone": "(54) 34416034 e (54) 34411477",
+   "atendimento": "Segunda à Sexta-feira: 8h às 11h30min e 13h às 16h.",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/14/oficina-da-prefeitura-municipal-de-veranopolis",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Topografia",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": "Infraestrutura Urbana",
+   "endereco": null,
+   "telefone": "(54) 34411477",
+   "atendimento": "Segunda à Sexta-feira: 8h às 11h30min e 13h às 16h.",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/15/topografia",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Engenharia",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": "Infraestrutura Urbana",
+   "endereco": null,
+   "telefone": "(54) 34411477",
+   "atendimento": "Segunda à Sexta-feira: 8h às 11h30min e 13h às 16h.",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/16/engenharia",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "CAPS",
+   "categoria_site": "Centros",
+   "secao": "departamento",
+   "secretaria": "Saúde",
+   "endereco": "Av. Dr. José Montaury, 894, Centro",
+   "telefone": "(54) 34417622",
+   "atendimento": "Das 8h às 18h, de segunda à sexta-feira.",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/17/caps",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Departamento de Cultura",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": "Educação, Cultura e Esportes",
+   "endereco": null,
+   "telefone": "(54) 3441-1477",
+   "atendimento": "Segunda à Sexta-feira: 8h às 11h30min e 13h às 16h.",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/19/departamento-de-cultura",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "CRAS",
+   "categoria_site": "Centros",
+   "secao": "departamento",
+   "secretaria": "Desenvolvimento Social",
+   "endereco": "Na Secretaria Municipal de Assistência Social e Habitação Rua São Francisco de Assis (ao lado da APAE)",
+   "telefone": "(54) 999143230",
+   "atendimento": "Segunda à Sexta-feira: das 8h às 12h e das 13h às 17h. Quartas-feiras: PELA MANHÃ APENAS EXPEDINETE INTERNO – SEM ATENDIMENTO AO PÚBLICO / à tarde das 13:00 às 18h e 30min (horário estendido)",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/2/cras",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "CREAS",
+   "categoria_site": "Centros",
+   "secao": "departamento",
+   "secretaria": "Desenvolvimento Social",
+   "endereco": "Rua Dr. José Montaury, nº 960, Centro - Veranópolis - CEP 95330-000",
+   "telefone": "(54) 34416200",
+   "atendimento": "Segunda à Sexta-feira: das 8h às 18h, sem fechar ao meio-dia",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/3/creas",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "FAPS",
+   "categoria_site": "Fundo Municipal",
+   "secao": "departamento",
+   "secretaria": "Governo e Inovação",
+   "endereco": null,
+   "telefone": "(54) 3441-1477",
+   "atendimento": "Segunda à Sexta-feira: 8h às 11h30min e 13h às 16h.",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/39/faps-fundo-de-aposentadoria-e-pensao-do-servidor-de-veranopolis",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Arquivo Público Municipal de Veranópolis",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": "Governo e Inovação",
+   "endereco": "Rua Alfredo Chaves, 366 - Bairro Centro - Veranópolis/RS",
+   "telefone": "(54) 34411477",
+   "atendimento": "Segunda à Sexta-feira: das 8h30min às 11h30min e das 13h30min às 17h",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/40/arquivo-publico-municipal-de-veranopolis",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Ouvidoria",
+   "categoria_site": "Transparência",
+   "secao": "departamento",
+   "secretaria": "Governo e Inovação",
+   "endereco": "Rua Alfredo Chaves, 366 - CEP 95330-000",
+   "telefone": "(54) 34411477 e (54) 999134447",
+   "atendimento": "Segunda à Sexta-feira: 8h às 11h30min e 13h às 16h.",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/41/ouvidoria",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Protocolo",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": "Governo e Inovação",
+   "endereco": "Rua Alfredo Chaves, 366 - CEP 95330-000",
+   "telefone": "(54) 34411477 e (54) 999134447",
+   "atendimento": "Segunda à Sexta-feira: 8:30 às 11:30 e 13:30 às 17:00",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/42/protocolo",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Diretoria do Meio Ambiente",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": "Governo e Inovação",
+   "endereco": "Rua Alfredo Chaves, 366 - Veranópolis/RS - CEP 95330-000",
+   "telefone": "(54) 34411477",
+   "atendimento": "Segunda à Sexta-feira: 8h às 11h30min e 13h às 16h.",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/43/diretoria-do-meio-ambiente",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Plano Municipal e Regional de Conservação e Recuperação da Mata Atlântica",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": "Governo e Inovação",
+   "endereco": null,
+   "telefone": "(54) 34411477",
+   "atendimento": "Segunda à Sexta-feira: 8h às 11h30min e 13h às 16h.",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/46/plano-municipal-e-regional-de-conservacao-e-recuperacao-da-mata-atlantica-pmma",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Departamento de bem-estar animal",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": "Governo e Inovação",
+   "endereco": "Rua Alfredo chaves, 366, 2º andar junto à diretoria de meio ambiente",
+   "telefone": "(54) 996585570",
+   "atendimento": "8h às 11h30 e das 13h às 16h",
+   "url": "https://www.veranopolis.rs.gov.br/departamento/view/58/departamento-de-bem-estar-animal",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Saúde",
+   "categoria_site": "Secretaria",
+   "secao": "secretaria",
+   "secretaria": null,
+   "endereco": "Rua Pinheiro Machado, 581 - Veranópolis/RS - CEP 95330-000",
+   "telefone": "(54) 34411458",
+   "atendimento": "Segunda à Sexta-feira: 8h às 11h30min e 13h às 16h.",
+   "url": "https://www.veranopolis.rs.gov.br/secretaria/view/12/saude",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Gabinete do Prefeito",
+   "categoria_site": "Secretaria",
+   "secao": "secretaria",
+   "secretaria": null,
+   "endereco": "Rua Alfredo Chaves, 366 - Veranópolis/RS - CEP 95330-000",
+   "telefone": "(54) 34411477",
+   "atendimento": "Segunda à Sexta-feira: 8h às 11h30min e 13h às 16h.",
+   "url": "https://www.veranopolis.rs.gov.br/secretaria/view/4/gabinete-do-prefeito",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Desenvolvimento Social",
+   "categoria_site": "Secretaria",
+   "secao": "secretaria",
+   "secretaria": null,
+   "endereco": "Rua São Francisco de Assis, 259, Centro - Veranópolis/RS - CEP 95330-000  (ao lado da APAE)",
+   "telefone": "(54) 34417242",
+   "atendimento": "Segunda à Sexta-feira: 8h às 11h30min e 13h às 16h.",
+   "url": "https://www.veranopolis.rs.gov.br/secretaria/view/6/secretaria-de-desenvolvimento-social",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Educação, Cultura e Esportes",
+   "categoria_site": "Secretaria",
+   "secao": "secretaria",
+   "secretaria": null,
+   "endereco": "Rua Dr. José Montaury, 181 - Centro - Veranópolis/RS - CEP 95330-000",
+   "telefone": "(54) 34417828",
+   "atendimento": "Segunda à Sexta-feira: 8h às 11h30min e 13h às 16h.",
+   "url": "https://www.veranopolis.rs.gov.br/secretaria/view/7/educacao-cultura-e-esportes",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Posto de Saúde Central",
+   "categoria_site": "Unidade de saúde",
+   "secao": "unidade-saude",
+   "secretaria": null,
+   "endereco": "Rua Pinheiro Machado, 581 - Centro",
+   "telefone": "(54) 34411458",
+   "atendimento": "Das 6h às 18h, de segunda à sexta-feira.",
+   "url": "https://www.veranopolis.rs.gov.br/unidade-saude/view/2/posto-de-saude-central",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "ESF Santo Antônio",
+   "categoria_site": "Unidade de saúde",
+   "secao": "unidade-saude",
+   "secretaria": null,
+   "endereco": "Rua Capitão Pelegrino Guzzo, s/nº – Bairro Santo Antônio",
+   "telefone": "(54) 34418178",
+   "atendimento": "De segunda à sexta-feira, das 7h30min às 11h30min e 13h às 17h.",
+   "url": "https://www.veranopolis.rs.gov.br/unidade-saude/view/3/esf-santo-antonio",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  }
+ ],
+ "fonte": {
+  "nome": "Site oficial da Prefeitura de Veranópolis",
+  "url": "https://www.veranopolis.rs.gov.br",
+  "licenca": "informação pública",
+  "obtido_em": "2026-11-19T00:58:20Z",
+  "situacao": "ok"
+ }
+}

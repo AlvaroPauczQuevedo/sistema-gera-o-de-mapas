@@ -16,7 +16,10 @@ sys.path.insert(0, str(ROOT / "backend"))
 from app.municipios import MUNICIPIOS  # noqa: E402
 
 OUT = ROOT / "frontend" / "public" / "data"
-OVERPASS = "https://overpass-api.de/api/interpreter"
+# Instâncias públicas do Overpass; alterna entre elas quando uma falha.
+OVERPASS = ["https://overpass-api.de/api/interpreter",
+            "https://overpass.kumi.systems/api/interpreter",
+            "https://overpass.private.coffee/api/interpreter"]
 
 CAMADAS = {
     "vias": ('way["highway"]', ["highway", "name", "surface", "bridge"]),
@@ -27,14 +30,18 @@ CAMADAS = {
 
 def consulta(bbox, filtro):
     s, w, n, e = bbox
-    q = f"[out:json][timeout:180];{filtro}({s},{w},{n},{e});out geom tags;"
+    return consulta_bruta(f"[out:json][timeout:180];{filtro}({s},{w},{n},{e});out geom tags;")
+
+
+def consulta_bruta(q):
     data = urllib.parse.urlencode({"data": q}).encode()
-    for tentativa in range(4):
+    for tentativa in range(6):
+        url = OVERPASS[tentativa % len(OVERPASS)]
         try:
-            with urllib.request.urlopen(urllib.request.Request(OVERPASS, data, {"User-Agent": "gemeos-digitais-defesa-civil/0.1", "Accept": "application/json"}), timeout=240) as r:
+            with urllib.request.urlopen(urllib.request.Request(url, data, {"User-Agent": "gemeos-digitais-defesa-civil/0.1", "Accept": "application/json"}), timeout=240) as r:
                 return json.load(r)["elements"]
         except Exception as ex:  # Overpass costuma limitar requisições
-            print("  tentativa", tentativa + 1, "falhou:", ex)
+            print("  tentativa", tentativa + 1, url.split("/")[2], "falhou:", ex)
             time.sleep(10 * (tentativa + 1))
     raise RuntimeError("Overpass indisponível")
 
@@ -50,27 +57,28 @@ def para_feature(el, tags, fechada):
     return LineString(pts), props
 
 
-for codigo, nome in MUNICIPIOS.items():
-    limite = shape(json.loads((ROOT / "backend/data/boundaries" / f"{codigo}.geojson")
-                              .read_text(encoding="utf-8"))["features"][0]["geometry"])
-    pl = prep(limite)
-    pasta = OUT / str(codigo)
-    pasta.mkdir(parents=True, exist_ok=True)
-    (pasta / "limite.geojson").write_bytes((ROOT / "backend/data/boundaries" / f"{codigo}.geojson").read_bytes())
-    minx, miny, maxx, maxy = limite.bounds
-    for camada, (filtro, tags) in CAMADAS.items():
-        if (pasta / f"{camada}.geojson").exists() and "--refazer" not in sys.argv:
-            continue  # retoma downloads interrompidos
-        feats = []
-        for el in consulta((miny, minx, maxy, maxx), filtro):
-            r = para_feature(el, tags, camada == "edificacoes")
-            if r and pl.intersects(r[0]):
-                feats.append({"type": "Feature", "geometry": mapping(r[0]), "properties": r[1]})
-        (pasta / f"{camada}.geojson").write_text(
-            json.dumps({"type": "FeatureCollection", "features": feats,
-                        "fonte": {"nome": "© OpenStreetMap contributors", "licenca": "ODbL 1.0",
-                                  "url": "https://www.openstreetmap.org/copyright",
-                                  "obtido_em": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}}),
-            encoding="utf-8")
-        print(nome, camada, len(feats))
-        time.sleep(5)
+if __name__ == "__main__":
+    for codigo, nome in MUNICIPIOS.items():
+        limite = shape(json.loads((ROOT / "backend/data/boundaries" / f"{codigo}.geojson")
+                                  .read_text(encoding="utf-8"))["features"][0]["geometry"])
+        pl = prep(limite)
+        pasta = OUT / str(codigo)
+        pasta.mkdir(parents=True, exist_ok=True)
+        (pasta / "limite.geojson").write_bytes((ROOT / "backend/data/boundaries" / f"{codigo}.geojson").read_bytes())
+        minx, miny, maxx, maxy = limite.bounds
+        for camada, (filtro, tags) in CAMADAS.items():
+            if (pasta / f"{camada}.geojson").exists() and "--refazer" not in sys.argv:
+                continue  # retoma downloads interrompidos
+            feats = []
+            for el in consulta((miny, minx, maxy, maxx), filtro):
+                r = para_feature(el, tags, camada == "edificacoes")
+                if r and pl.intersects(r[0]):
+                    feats.append({"type": "Feature", "geometry": mapping(r[0]), "properties": r[1]})
+            (pasta / f"{camada}.geojson").write_text(
+                json.dumps({"type": "FeatureCollection", "features": feats,
+                            "fonte": {"nome": "© OpenStreetMap contributors", "licenca": "ODbL 1.0",
+                                      "url": "https://www.openstreetmap.org/copyright",
+                                      "obtido_em": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}}),
+                encoding="utf-8")
+            print(nome, camada, len(feats))
+            time.sleep(5)

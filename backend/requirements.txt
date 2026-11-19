@@ -1,2 +1,8 @@
+# Scripts de preparação de dados (scripts/)
+shapely>=2.0
+rasterio>=1.4
+numpy>=2.0
+pillow>=10.0
+# API (app/) — opcional por enquanto; o site lê os arquivos estáticos
 fastapi>=0.115
 uvicorn[standard]>=0.30

@@ -1,0 +1,64 @@
+{
+ "eventos": [
+  {
+   "id": "antas-2023-09",
+   "nome": "Cheia de setembro de 2023 (ciclone extratropical)",
+   "rio": "rio_das_antas",
+   "estacao": "86472000",
+   "estacao_nome": "Linha José Júlio (SGB/CPRM) — Rio das Antas",
+   "inicio": "01/09/2023",
+   "fim": "10/09/2023",
+   "pontos": 959,
+   "nivel_base_cm": 227.0,
+   "pico_cm": 2773.0,
+   "pico_em": "2023-09-05T01:30:00Z",
+   "subida_max_m": 25.46,
+   "chuva_total_mm": 224.6,
+   "lacunas_maiores_2h": [],
+   "fonte": "ANA — telemetria (HidroWeb), dado bruto não consistido",
+   "arquivo": "antas-2023-09.json"
+  },
+  {
+   "id": "antas-2023-11",
+   "nome": "Cheia de novembro de 2023",
+   "rio": "rio_das_antas",
+   "estacao": "86472000",
+   "estacao_nome": "Linha José Júlio (SGB/CPRM) — Rio das Antas",
+   "inicio": "14/11/2023",
+   "fim": "24/11/2023",
+   "pontos": 1048,
+   "nivel_base_cm": 798.0,
+   "pico_cm": 2515.0,
+   "pico_em": "2023-11-18T22:30:00Z",
+   "subida_max_m": 17.17,
+   "chuva_total_mm": 215.0,
+   "lacunas_maiores_2h": [],
+   "fonte": "ANA — telemetria (HidroWeb), dado bruto não consistido",
+   "arquivo": "antas-2023-11.json"
+  },
+  {
+   "id": "antas-2024-05",
+   "nome": "Cheia de maio de 2024 (rompimento parcial da barragem 14 de Julho)",
+   "rio": "rio_das_antas",
+   "estacao": "86472000",
+   "estacao_nome": "Linha José Júlio (SGB/CPRM) — Rio das Antas",
+   "inicio": "27/04/2024",
+   "fim": "08/05/2024",
+   "pontos": 403,
+   "nivel_base_cm": 248.0,
+   "pico_cm": 2513.0,
+   "pico_em": "2024-05-01T19:45:00Z",
+   "subida_max_m": 22.65,
+   "chuva_total_mm": 377.8,
+   "lacunas_maiores_2h": [
+    [
+     "2024-04-30T05:45:00Z",
+     "2024-05-01T03:00:00Z"
+    ]
+   ],
+   "fonte": "ANA — telemetria (HidroWeb), dado bruto não consistido",
+   "arquivo": "antas-2024-05.json"
+  }
+ ],
+ "gerado_em": "2026-11-18T23:42:14Z"
+}

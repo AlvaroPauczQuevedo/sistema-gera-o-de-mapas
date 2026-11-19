@@ -1,0 +1,40 @@
+{
+"Av. Silveira Martins, 163  - Centro, Cotiporã, Rio Grande do Sul, Brasil": null,
+"Rua Padre Eugênio Medicheschi, 90, Centro, Cotiporã, Rio Grande do Sul, Brasil": null,
+"Av. Monsenhor Paulo Chiaramont, 400, União da Serra, Rio Grande do Sul, Brasil": null,
+"Na Secretaria Municipal de Desenvolvimento Social, Habitação e Longevidade, situada na rua São Francisco de Assis - 259, próximo a APAE., Veranópolis, Rio Grande do Sul, Brasil": null,
+"Rua Irmãos Maristas, 185, Veranópolis, Rio Grande do Sul, Brasil": {
+"lat": -28.9440623,
+"lon": -51.5493485,
+"precisao": "residential"
+},
+"Av. Dr. José Montaury, 894, Centro, Veranópolis, Rio Grande do Sul, Brasil": {
+"lat": -28.9329872,
+"lon": -51.5498304,
+"precisao": "tertiary"
+},
+"Na Secretaria Municipal de Assistência Social e Habitação Rua São Francisco de Assis (ao lado da APAE), Veranópolis, Rio Grande do Sul, Brasil": null,
+"Rua Dr. José Montaury, nº 960, Centro - Veranópolis, Veranópolis, Rio Grande do Sul, Brasil": null,
+"Rua Alfredo Chaves, 366 - Bairro Centro, Veranópolis, Rio Grande do Sul, Brasil": null,
+"Rua Alfredo Chaves, 366, Veranópolis, Rio Grande do Sul, Brasil": {
+"lat": -28.9391152,
+"lon": -51.5546253,
+"precisao": "residential"
+},
+"Rua Alfredo chaves, 366, 2º andar junto à diretoria de meio ambiente, Veranópolis, Rio Grande do Sul, Brasil": null,
+"Rua Pinheiro Machado, 581 - Centro, Veranópolis, Rio Grande do Sul, Brasil": null,
+"Rua Capitão Pelegrino Guzzo, s/nº – Bairro Santo Antônio, Veranópolis, Rio Grande do Sul, Brasil": null,
+"Rua Astério de Melo, 279, Veranópolis, Rio Grande do Sul, Brasil": null,
+"Rua Fabiano Rescke, s/nº -Bairro Renovação, Veranópolis, Rio Grande do Sul, Brasil": null,
+"Rua Domingos José Farina, nº 280 – Bairro Medianeira, Veranópolis, Rio Grande do Sul, Brasil": null,
+"Rua Heriberto Pedro Ledur nº 55 - Bairro Universal, Veranópolis, Rio Grande do Sul, Brasil": null,
+"{\"city\": \"Cotiporã\", \"country\": \"Brasil\", \"state\": \"Rio Grande do Sul\", \"street\": \"90 Rua Padre Eugênio Medicheschi\"}": null,
+"{\"city\": \"Cotiporã\", \"country\": \"Brasil\", \"state\": \"Rio Grande do Sul\", \"street\": \"Rua Padre Eugênio Medicheschi\"}": null,
+"{\"city\": \"União da Serra\", \"country\": \"Brasil\", \"state\": \"Rio Grande do Sul\", \"street\": \"400 Avenida Monsenhor Paulo Chiaramont\"}": null,
+"{\"city\": \"União da Serra\", \"country\": \"Brasil\", \"state\": \"Rio Grande do Sul\", \"street\": \"Avenida Monsenhor Paulo Chiaramont\"}": null,
+"{\"city\": \"Veranópolis\", \"country\": \"Brasil\", \"state\": \"Rio Grande do Sul\", \"street\": \"Na Secretaria Municipal de Desenvolvimento Social, Habitação e Longevidade, situada na rua São Francisco de Assis\"}": null,
+"{\"city\": \"Veranópolis\", \"country\": \"Brasil\", \"state\": \"Rio Grande do Sul\", \"street\": \"279 Rua Astério de Melo\"}": null,
+"{\"city\": \"Veranópolis\", \"country\": \"Brasil\", \"state\": \"Rio Grande do Sul\", \"street\": \"Rua Astério de Melo\"}": null,
+"{\"city\": \"Veranópolis\", \"country\": \"Brasil\", \"state\": \"Rio Grande do Sul\", \"street\": \"Rua Fabiano Rescke\"}": null,
+"{\"city\": \"Veranópolis\", \"country\": \"Brasil\", \"state\": \"Rio Grande do Sul\", \"street\": \"Na Secretaria Municipal de Assistência Social e Habitação Rua São Francisco de Assis (ao lado da APAE)\"}": null
+}

@@ -1,0 +1,74 @@
+{
+ "codigo_ibge": 4307864,
+ "nome": "Fagundes Varela",
+ "retangulo": {
+  "oeste": -51.81959988793623,
+  "norte": -28.832800243010055,
+  "leste": -51.61848877682512,
+  "sul": -28.93946690967672
+ },
+ "altitude_m": {
+  "min": 180.0,
+  "max": 717.1,
+  "media": 509.1
+ },
+ "declividade_media_pct": 21.4,
+ "classes": [
+  {
+   "classe": "Plano",
+   "de_pct": 0,
+   "ate_pct": 3,
+   "cor": "#1a9850",
+   "area_km2": 4.32,
+   "fracao": 0.0323
+  },
+  {
+   "classe": "Suave ondulado",
+   "de_pct": 3,
+   "ate_pct": 8,
+   "cor": "#91cf60",
+   "area_km2": 19.14,
+   "fracao": 0.143
+  },
+  {
+   "classe": "Ondulado",
+   "de_pct": 8,
+   "ate_pct": 20,
+   "cor": "#d9ef8b",
+   "area_km2": 55.74,
+   "fracao": 0.4164
+  },
+  {
+   "classe": "Forte ondulado",
+   "de_pct": 20,
+   "ate_pct": 45,
+   "cor": "#fee08b",
+   "area_km2": 41.97,
+   "fracao": 0.3136
+  },
+  {
+   "classe": "Montanhoso",
+   "de_pct": 45,
+   "ate_pct": 75,
+   "cor": "#fc8d59",
+   "area_km2": 11.01,
+   "fracao": 0.0823
+  },
+  {
+   "classe": "Escarpado",
+   "de_pct": 75,
+   "ate_pct": null,
+   "cor": "#d73027",
+   "area_km2": 1.67,
+   "fracao": 0.0125
+  }
+ ],
+ "fonte": {
+  "nome": "Copernicus DEM GLO-30 (ESA), via AWS Open Data",
+  "licenca": "Copernicus DEM — licença de uso livre (© DLR e.V. 2010-2014, © Airbus 2014-2018, ESA)",
+  "url": "https://registry.opendata.aws/copernicus-dem/",
+  "resolucao_espacial": "1 segundo de arco (~30 m)",
+  "metodo": "Declividade em % por diferenças centrais (numpy.gradient) sobre o DSM. O GLO-30 é modelo de SUPERFÍCIE: inclui copas de árvores e edificações.",
+  "obtido_em": "2026-11-18T22:28:44Z"
+ }
+}

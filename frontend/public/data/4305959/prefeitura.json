@@ -1,0 +1,154 @@
+{
+ "orgaos": [
+  {
+   "nome": "Conselho Tutelar",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": null,
+   "endereco": null,
+   "telefone": "(54) 3446-2855 ou (54) 99915-1773.",
+   "atendimento": "Segunda-feira a Sexta-feira: das 7h30 às 11h30 e das 13h às 17h",
+   "url": "https://www.cotipora.rs.gov.br/departamento/view/17/conselho-tutelar",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Meio Ambiente",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": null,
+   "endereco": null,
+   "telefone": null,
+   "atendimento": "Segunda-feira a Sexta-feira: das 7h30 às 11h30 e das 13h às 17h",
+   "url": "https://www.cotipora.rs.gov.br/departamento/view/19/meio-ambiente",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Chefe de Gabinete",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": null,
+   "endereco": null,
+   "telefone": null,
+   "atendimento": "Segunda-feira a Sexta-feira: das 7h30 às 11h30 e das 13h às 17h",
+   "url": "https://www.cotipora.rs.gov.br/departamento/view/21/chefe-de-gabinete",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Engenharia",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": null,
+   "endereco": null,
+   "telefone": null,
+   "atendimento": "Segunda-feira a Sexta-feira: das 7h30 às 11h30 e das 13h às 17h",
+   "url": "https://www.cotipora.rs.gov.br/departamento/view/28/engenharia",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Desporto",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": null,
+   "endereco": null,
+   "telefone": null,
+   "atendimento": "Segunda-feira a Sexta-feira: das 7h30 às 11h30 e das 13h às 17h",
+   "url": "https://www.cotipora.rs.gov.br/departamento/view/30/desporto",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Assistência Social",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": null,
+   "endereco": null,
+   "telefone": null,
+   "atendimento": "Segunda-feira a Sexta-feira: das 7h30 às 11h30 e das 13h às 17h",
+   "url": "https://www.cotipora.rs.gov.br/departamento/view/36/assistencia-social",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Plano Municipal de Educação",
+   "categoria_site": "Departamento",
+   "secao": "departamento",
+   "secretaria": null,
+   "endereco": null,
+   "telefone": null,
+   "atendimento": "Segunda-feira a Sexta-feira: das 7h30 às 11h30 e das 13h às 17h",
+   "url": "https://www.cotipora.rs.gov.br/departamento/view/40/plano-municipal-de-educacao",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Administração",
+   "categoria_site": "Secretaria",
+   "secao": "secretaria",
+   "secretaria": null,
+   "endereco": "Av. Silveira Martins, 163  - Centro",
+   "telefone": "(54)34462808",
+   "atendimento": "Segunda-feira a Sexta-feira: das 7h30 às 11h30 e das 13h às 17h",
+   "url": "https://www.cotipora.rs.gov.br/secretaria/view/16/administracao",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Educação e Desporto",
+   "categoria_site": "Secretaria",
+   "secao": "secretaria",
+   "secretaria": null,
+   "endereco": "Av. Silveira Martins, 163, Centro - Cotiporã/RS",
+   "telefone": "(54) 34462831",
+   "atendimento": "Segunda-feira a Sexta-feira: das 7h30 às 11h30 e das 13h às 17h",
+   "url": "https://www.cotipora.rs.gov.br/secretaria/view/17/educacao-e-desporto",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Gabinete do Prefeito e do Vice-Prefeito",
+   "categoria_site": "Secretaria",
+   "secao": "secretaria",
+   "secretaria": null,
+   "endereco": "Av. Silveira Martins, 163  - Centro",
+   "telefone": "(54)34462834",
+   "atendimento": "Segunda-feira a Sexta-feira: das 7h30 às 11h30 e das 13h às 17h",
+   "url": "https://www.cotipora.rs.gov.br/secretaria/view/26/gabinete-do-prefeito-e-do-vice-prefeito",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Agricultura, Meio Ambiente, Indústria e Comércio",
+   "categoria_site": "Secretaria",
+   "secao": "secretaria",
+   "secretaria": null,
+   "endereco": "Av. Silveira Martins, 163  - Centro",
+   "telefone": "(54) 3446-2818",
+   "atendimento": "Segunda-feira a Sexta-feira: das 7h30 às 11h30 e das 13h às 17h",
+   "url": "https://www.cotipora.rs.gov.br/secretaria/view/27/agricultura-meio-ambiente-industria-e-comercio",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Obras, Trânsito e Saneamento",
+   "categoria_site": "Secretaria",
+   "secao": "secretaria",
+   "secretaria": null,
+   "endereco": "Av. Silveira Martins, 163  - Centro",
+   "telefone": "(54) 3446-2810",
+   "atendimento": "Segunda-feira a Sexta-feira: das 7h30 às 11h30 e das 13h às 17h",
+   "url": "https://www.cotipora.rs.gov.br/secretaria/view/28/obras-transito-e-saneamento",
+   "geolocalizacao": "aproximada, a partir do endereço do site: via do OSM (sem número; trecho mais próximo do centro)"
+  },
+  {
+   "nome": "Saúde e Assistência Social",
+   "categoria_site": "Secretaria",
+   "secao": "secretaria",
+   "secretaria": null,
+   "endereco": "Rua Padre Eugênio Medicheschi, 90, Centro - Cotiporã/RS",
+   "telefone": "(54) 3446 2820",
+   "atendimento": "Segunda-feira a Sexta-feira: das 7h30 às 11h30 e das 13h às 17h",
+   "url": "https://www.cotipora.rs.gov.br/secretaria/view/29/saude-e-assistencia-social",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  }
+ ],
+ "fonte": {
+  "nome": "Site oficial da Prefeitura de Cotiporã",
+  "url": "https://www.cotipora.rs.gov.br",
+  "licenca": "informação pública",
+  "obtido_em": "2026-11-19T00:53:29Z",
+  "situacao": "ok"
+ }
+}

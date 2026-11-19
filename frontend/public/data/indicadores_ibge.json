@@ -1,0 +1,52 @@
+{
+ "municipios": [
+  {
+   "codigo_ibge": 4305959,
+   "nome": "Cotiporã",
+   "populacao": 3846,
+   "area_km2": 173.207,
+   "densidade_hab_km2": 22.2
+  },
+  {
+   "codigo_ibge": 4307864,
+   "nome": "Fagundes Varela",
+   "populacao": 2566,
+   "area_km2": 134.295,
+   "densidade_hab_km2": 19.11
+  },
+  {
+   "codigo_ibge": 4312351,
+   "nome": "Montauri",
+   "populacao": 1499,
+   "area_km2": 82.23,
+   "densidade_hab_km2": 18.23
+  },
+  {
+   "codigo_ibge": 4320404,
+   "nome": "Serafina Corrêa",
+   "populacao": 16961,
+   "area_km2": 163.31,
+   "densidade_hab_km2": 103.86
+  },
+  {
+   "codigo_ibge": 4322350,
+   "nome": "União da Serra",
+   "populacao": 1170,
+   "area_km2": 131.154,
+   "densidade_hab_km2": 8.92
+  },
+  {
+   "codigo_ibge": 4322806,
+   "nome": "Veranópolis",
+   "populacao": 24021,
+   "area_km2": 289.397,
+   "densidade_hab_km2": 83.0
+  }
+ ],
+ "fonte": {
+  "nome": "IBGE — Censo Demográfico 2022 (tabela 4714)",
+  "licenca": "CC BY 4.0",
+  "url": "https://sidra.ibge.gov.br/tabela/4714",
+  "obtido_em": "2026-11-18T23:23:32Z"
+ }
+}

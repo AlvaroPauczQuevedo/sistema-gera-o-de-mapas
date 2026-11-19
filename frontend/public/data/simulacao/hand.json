@@ -1,0 +1,83 @@
+{
+ "rios": [
+  {
+   "id": "rio_das_antas",
+   "nome": "Rio das Antas",
+   "arquivo": "hand_rio_das_antas.png",
+   "largura": 1153,
+   "altura": 399,
+   "retangulo": {
+    "oeste": -51.713570144134394,
+    "norte": -29.00165918188884,
+    "leste": -51.39329236635662,
+    "sul": -29.112492515222172
+   },
+   "celula_m": [
+    27.08,
+    30.71
+   ],
+   "celulas_influencia": 34394
+  },
+  {
+   "id": "rio_carreiro",
+   "nome": "Rio Carreiro",
+   "arquivo": "hand_rio_carreiro.png",
+   "largura": 721,
+   "altura": 1868,
+   "retangulo": {
+    "oeste": -51.90190347746773,
+    "norte": -28.576936959666618,
+    "leste": -51.70162569968995,
+    "sul": -29.095825848555506
+   },
+   "celula_m": [
+    27.08,
+    30.71
+   ],
+   "celulas_influencia": 51747
+  },
+  {
+   "id": "rio_guapore",
+   "nome": "Rio Guaporé",
+   "arquivo": "hand_rio_guapore.png",
+   "largura": 562,
+   "altura": 897,
+   "retangulo": {
+    "oeste": -52.16079236635662,
+    "norte": -28.597214737444393,
+    "leste": -52.00468125524551,
+    "sul": -28.84638140411106
+   },
+   "celula_m": [
+    27.08,
+    30.71
+   ],
+   "celulas_influencia": 40192
+  },
+  {
+   "id": "rio_da_prata",
+   "nome": "Rio da Prata",
+   "arquivo": "hand_rio_da_prata.png",
+   "largura": 203,
+   "altura": 849,
+   "retangulo": {
+    "oeste": -51.486070144134395,
+    "norte": -28.781381404111062,
+    "leste": -51.429681255245505,
+    "sul": -29.017214737444395
+   },
+   "celula_m": [
+    27.08,
+    30.71
+   ],
+   "celulas_influencia": 14005
+  }
+ ],
+ "metodo": "Motor de inundação por ESTIMATIVA — HAND (Height Above Nearest Drainage).\n\nMétodo (Rennó et al., 2008; Nobre et al., 2011; usado no NOAA OWP Flood Inundation Mapping):\n  1. Relevo Copernicus GLO-30 da região -> preenchimento de depressões -> direção de fluxo D8.\n  2. Canais principais = células de drenagem (acumulação > LIMIAR_KM2) a até 150 m de rios\n     nomeados do OpenStreetMap (Rio das Antas, Carreiro, Guaporé, ...).\n  3. HAND de cada célula = cota da célula - cota do canal para onde ela escoa.\n  4. Uma elevação do nível do rio de Δh metros inunda as células com HAND < Δh;\n     profundidade estimada = Δh - HAND.\n\nSaída (frontend/public/data/simulacao/):\n  hand_<rio>.png  — HAND em escala de cinza (1 nível = PASSO_M; 255 = fora da área de influência)\n  hand.json       — rios, retângulos, escala e procedência\n\nLIMITAÇÕES (mostradas na interface): modelo estático, sem hidrodinâmica (não é HEC-RAS); assume o\nmesmo Δh ao longo de todo o trecho; DSM inclui vegetação/telhados; reservatórios de usinas aparecem\ncomo superfície de água. Serve para cenários e triagem, não para decisão sem validação profissional.",
+ "passo_m": 0.25,
+ "hand_max_m": 40.0,
+ "fonte_relevo": "Copernicus DEM GLO-30 (ESA), 30 m",
+ "fonte_rios": "© OpenStreetMap (ODbL)",
+ "gerado_em": "2026-11-18T23:41:15Z",
+ "limiar_drenagem_km2": 2.0
+}

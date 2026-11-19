@@ -1,0 +1,74 @@
+{
+ "codigo_ibge": 4322350,
+ "nome": "União da Serra",
+ "retangulo": {
+  "oeste": -52.087498889813965,
+  "norte": -28.704901679985348,
+  "leste": -51.95416555648063,
+  "sul": -28.847957235540903
+ },
+ "altitude_m": {
+  "min": 256.0,
+  "max": 774.1,
+  "media": 493.7
+ },
+ "declividade_media_pct": 25.9,
+ "classes": [
+  {
+   "classe": "Plano",
+   "de_pct": 0,
+   "ate_pct": 3,
+   "cor": "#1a9850",
+   "area_km2": 2.02,
+   "fracao": 0.0155
+  },
+  {
+   "classe": "Suave ondulado",
+   "de_pct": 3,
+   "ate_pct": 8,
+   "cor": "#91cf60",
+   "area_km2": 10.64,
+   "fracao": 0.0814
+  },
+  {
+   "classe": "Ondulado",
+   "de_pct": 8,
+   "ate_pct": 20,
+   "cor": "#d9ef8b",
+   "area_km2": 42.68,
+   "fracao": 0.3264
+  },
+  {
+   "classe": "Forte ondulado",
+   "de_pct": 20,
+   "ate_pct": 45,
+   "cor": "#fee08b",
+   "area_km2": 58.74,
+   "fracao": 0.4493
+  },
+  {
+   "classe": "Montanhoso",
+   "de_pct": 45,
+   "ate_pct": 75,
+   "cor": "#fc8d59",
+   "area_km2": 15.98,
+   "fracao": 0.1222
+  },
+  {
+   "classe": "Escarpado",
+   "de_pct": 75,
+   "ate_pct": null,
+   "cor": "#d73027",
+   "area_km2": 0.68,
+   "fracao": 0.0052
+  }
+ ],
+ "fonte": {
+  "nome": "Copernicus DEM GLO-30 (ESA), via AWS Open Data",
+  "licenca": "Copernicus DEM — licença de uso livre (© DLR e.V. 2010-2014, © Airbus 2014-2018, ESA)",
+  "url": "https://registry.opendata.aws/copernicus-dem/",
+  "resolucao_espacial": "1 segundo de arco (~30 m)",
+  "metodo": "Declividade em % por diferenças centrais (numpy.gradient) sobre o DSM. O GLO-30 é modelo de SUPERFÍCIE: inclui copas de árvores e edificações.",
+  "obtido_em": "2026-11-18T22:28:48Z"
+ }
+}

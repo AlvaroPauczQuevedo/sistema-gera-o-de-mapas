@@ -1,0 +1,74 @@
+{
+ "codigo_ibge": 4305959,
+ "nome": "Cotiporã",
+ "retangulo": {
+  "oeste": -51.78289820633579,
+  "norte": -28.925501076014253,
+  "leste": -51.614287095224675,
+  "sul": -29.099389964903143
+ },
+ "altitude_m": {
+  "min": 66.0,
+  "max": 663.8,
+  "media": 410.0
+ },
+ "declividade_media_pct": 31.8,
+ "classes": [
+  {
+   "classe": "Plano",
+   "de_pct": 0,
+   "ate_pct": 3,
+   "cor": "#1a9850",
+   "area_km2": 4.85,
+   "fracao": 0.0281
+  },
+  {
+   "classe": "Suave ondulado",
+   "de_pct": 3,
+   "ate_pct": 8,
+   "cor": "#91cf60",
+   "area_km2": 11.47,
+   "fracao": 0.0664
+  },
+  {
+   "classe": "Ondulado",
+   "de_pct": 8,
+   "ate_pct": 20,
+   "cor": "#d9ef8b",
+   "area_km2": 43.03,
+   "fracao": 0.2492
+  },
+  {
+   "classe": "Forte ondulado",
+   "de_pct": 20,
+   "ate_pct": 45,
+   "cor": "#fee08b",
+   "area_km2": 70.37,
+   "fracao": 0.4075
+  },
+  {
+   "classe": "Montanhoso",
+   "de_pct": 45,
+   "ate_pct": 75,
+   "cor": "#fc8d59",
+   "area_km2": 37.46,
+   "fracao": 0.2169
+  },
+  {
+   "classe": "Escarpado",
+   "de_pct": 75,
+   "ate_pct": null,
+   "cor": "#d73027",
+   "area_km2": 5.5,
+   "fracao": 0.0319
+  }
+ ],
+ "fonte": {
+  "nome": "Copernicus DEM GLO-30 (ESA), via AWS Open Data",
+  "licenca": "Copernicus DEM — licença de uso livre (© DLR e.V. 2010-2014, © Airbus 2014-2018, ESA)",
+  "url": "https://registry.opendata.aws/copernicus-dem/",
+  "resolucao_espacial": "1 segundo de arco (~30 m)",
+  "metodo": "Declividade em % por diferenças centrais (numpy.gradient) sobre o DSM. O GLO-30 é modelo de SUPERFÍCIE: inclui copas de árvores e edificações.",
+  "obtido_em": "2026-11-18T22:28:41Z"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "orgaos": [
+  {
+   "nome": "Gabinete do Prefeito",
+   "categoria_site": "Telefones úteis",
+   "secao": "generico",
+   "endereco": "Av. Monsenhor Paulo Chiaramont, 400",
+   "telefone": "(54) 9 9713 5217",
+   "atendimento": "Segunda-feira a sexta-feira:",
+   "url": "https://www.uniaodaserra.rs.gov.br/pagina/telefones-uteis",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Secretaria de Administração",
+   "categoria_site": "Secretaria",
+   "secao": "generico",
+   "endereco": "Av. Monsenhor Paulo Chiaramont, 400",
+   "telefone": "(54) 9 9713 5217",
+   "atendimento": "Segunda-feira a sexta-feira:",
+   "url": "https://www.uniaodaserra.rs.gov.br/secretarias/secretaria-de-administracao",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Secretaria de Educação, Cultura e Esporte",
+   "categoria_site": "Secretaria",
+   "secao": "generico",
+   "endereco": "Av. Monsenhor Paulo Chiaramont, 400",
+   "telefone": "(54) 9 9713 5217",
+   "atendimento": "Segunda-feira a sexta-feira:",
+   "url": "https://www.uniaodaserra.rs.gov.br/secretarias/secretaria-de-educacao-cultura-e-esporte",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Secretaria de Obras, Serviços Públicos, Trânsito Municipal, Indústria Comércio e Turismo",
+   "categoria_site": "Secretaria",
+   "secao": "generico",
+   "endereco": "Av. Monsenhor Paulo Chiaramont, 400",
+   "telefone": "(54) 9 9713 5217",
+   "atendimento": "Segunda-feira a sexta-feira:",
+   "url": "https://www.uniaodaserra.rs.gov.br/secretarias/secretaria-de-obras-e-turismo",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  },
+  {
+   "nome": "Secretaria da Saúde, Trabalho, Habitação e Ação Social",
+   "categoria_site": "Secretaria",
+   "secao": "generico",
+   "endereco": "Av. Monsenhor Paulo Chiaramont, 400",
+   "telefone": "(54) 9 9713 5217",
+   "atendimento": "Segunda-feira a sexta-feira:",
+   "url": "https://www.uniaodaserra.rs.gov.br/secretarias/secretaria-de-saude-assistencia-social-e-habitacao",
+   "geolocalizacao": "não localizado (endereço ausente, genérico ou fora do município)"
+  }
+ ],
+ "fonte": {
+  "nome": "Site oficial da Prefeitura de União da Serra",
+  "url": "https://www.uniaodaserra.rs.gov.br",
+  "licenca": "informação pública",
+  "obtido_em": "2026-11-19T00:55:26Z",
+  "situacao": "ok"
+ }
+}
